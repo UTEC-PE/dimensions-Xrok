@@ -10,7 +10,7 @@ class Vector {
     private:
         T* data;
         int dataSize;
-
+        Operation oper;
         int dimensions;
         int* dimensionSizes;
 
@@ -21,7 +21,7 @@ class Vector {
             // TODO
         }
              
-        void set(T datum, int* coordinates); // TODO
+        void set(T datum, int* coordinates){}; // TODO
              
         T get(int* coordinates); // TODO
 };
